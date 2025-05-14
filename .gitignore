@@ -1,0 +1,30 @@
+# Ignore large data files that exceed GitHub's size limit
+Data Cleansing/PostHistory.csv
+Data Cleansing/PostHistory.xml
+Data Cleansing/Posts.csv
+Data Cleansing/Posts.xml
+
+# Optional: Ignore all .csv and .xml files in Data Cleansing
+# Uncomment the lines below if you want to ignore all such files in that folder
+Data Cleansing/*.csv
+Data Cleansing/*.xml
+*.xpt
+*.csv
+# General Python and IDE files
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+.env
+*.env
+*.log
+*.sqlite3
+
+# VSCode
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
